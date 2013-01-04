@@ -1,1 +1,1 @@
-web: fuseki-server --update --mem /ds
+web: ./fuseki-server --update --mem /ds
