@@ -1,2 +1,2 @@
-web: ./fuseki-server --port=$PORT --loc=DB /ds
-private: ./fuseki-server --port=56276 --loc=DB /ds
+web: ./fuseki-server --port=$PORT --file=Data/books.ttl /ds
+private: ./fuseki-server --port=56276 --file=Data/books.ttl /ds
